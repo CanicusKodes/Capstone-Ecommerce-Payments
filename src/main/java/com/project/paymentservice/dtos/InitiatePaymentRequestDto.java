@@ -9,4 +9,7 @@ import lombok.Setter;
 public class InitiatePaymentRequestDto {
 
     private String order_id;
+    private Long amount;
+    private String customer_name;
+    private String phone_number;
 }
